@@ -1,0 +1,15 @@
+import math
+
+radio1 = 3
+radio2 = 8
+radio3 = 10
+
+pi = round(math.pi, 6)#define la constantes con 6 decimas 
+#calculo de la sin curferencia 
+circunferencia1 = 2 * pi * radio1
+circunferencia2 = 2 * pi * radio2
+circunferencia3 = 2 * pi * radio3
+#imprime el resultado 
+print("La circunferencia para un radio de", radio1, "es:", circunferencia1)
+print("La circunferencia para un radio de", radio2, "es:", circunferencia2)
+print("La circunferencia para un radio de", radio3, "es:", circunferencia3)
